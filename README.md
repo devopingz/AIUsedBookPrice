@@ -6,9 +6,6 @@
 ## 🖥️ 프로젝트 개요
 #### ● 중고책의 경우 시세가 정확하지 않아 적정가격을 알려주는 어플리케이션<br>
 #### ● 소외된 이웃과 학생들에게 최신 기술과 혜택을 제공하고, 중고책의 가격을 제공하여 디지털 격차와 경제적 어려움을 완화
-<br>
-![image](https://github.com/devopingz/Iot-stuff/assets/56243414/d225d055-611f-48d0-ab02-fc9a2683333f)
-<br>
 
 ---
 ## 🕰️ 개발 기간
@@ -54,6 +51,11 @@
 ---
 ### ● 중고책 알고리즘 수식구현
 ![image](https://github.com/devopingz/AIUsedBookPrice/assets/56243414/680d6d2b-6255-49c1-a507-7e41c5a63eda)
+</br></br>
+
+---
+### ● 시스템 동작과정
+![image](https://github.com/devopingz/AIUsedBookPrice/assets/56243414/4127af88-21e2-43c5-9b74-e81351e0c082)
 </br></br>
 
 ---
