@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/gradient_background"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/res_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="30dp"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="@string/rtitle"
+        android:textColor="#000000"
+        android:fontFamily="@font/bmjua"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/book_img"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/draw_line"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/draw_line"
+            android:backgroundTint="#1E90FF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/con1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/rcon1"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/bmjua"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/con1_det"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/bmjua"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/draw_line"
+            android:backgroundTint="#1E90FF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/con2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/rcon2"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/bmjua"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/con2_det"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/bmjua"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/draw_line"
+            android:backgroundTint="#1E90FF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/con3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="@string/rcon3"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/bmjua"
+                android:textSize="18sp" />
+
+            <View
+                android:id="@+id/divider3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#FFFFFF"/>
+
+            <TextView
+                android:id="@+id/con3_det"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                android:fontFamily="@font/bmjua"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/fin_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/draw_line"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/bmjua"
+        android:backgroundTint="#1E90FF"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="TextView"
+        android:visibility="invisible" />
+
+
+    <ImageButton
+        android:id="@+id/backb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:scaleType="fitCenter"
+        app:backgroundTint="#FF35DAFF"
+        app:srcCompat="@drawable/ic_backbutton" />
+
+
+</LinearLayout>
